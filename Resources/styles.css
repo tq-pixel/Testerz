@@ -7,14 +7,25 @@
 body {
     font-family: "Inter";
     font-weight: 500;
+    font-size: large;
 }
 
 header {
     padding: 3px 0;
 }
 
+header img {
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px -1px;
+    text-decoration: none;
+}
+
 nav {
-    padding: 12px 0;
+    padding: 24px 0;
+}
+
+nav ul {
+    padding: 0px;
 }
 
 header h1 {
@@ -65,4 +76,37 @@ main h2 {
 
 .footer-whats-new {
     padding: 12px 0 0 0;
+}
+
+#ver {
+    padding: 24px;
+    background-color: rgba(61, 128, 191, 0.8);
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#disc {
+    padding: 24px;
+    background-color: rgba(128, 128, 128, 0.8);
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#inte {
+    padding: 24px;
+    background-color: rgba(61, 128, 191, 0.8);
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+footer {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    height: 24px;
+    text-align: center;
+    margin-top: 48px;
 }
